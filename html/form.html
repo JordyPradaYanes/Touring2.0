@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agricolapp</title>
+    <link rel="stylesheet" href="../css/styleform.css" />
+    <link rel="icon" href="../images/icono.webp" />
+</head>
+<body>
+<div class="container">
+    <div class="form-content">
+        <h1 id="title">Registro</h1>
+        <form action="" autocomplete="off" id="form">
+            <div class="input-group">
+                <div class="input-field" id="nameInput">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Nombre" id="name">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Correo" id="email">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Contraseña" id="pass">
+                </div>
+                <p>Olvidaste tu contraseña <a href="#">Click aqui</a></p>
+            </div>
+            <div class="btn-field">
+                <button id="signUp" type="submit">Registro</button>
+                <button id="signIn" type="submit" class="disable">Login</button>
+            </div>
+            <p class="warnings" id="warnings"></p>
+        </form>
+    </div>
+</div>    
+</body>
+
+<script src="https://kit.fontawesome.com/459ee9189d.js" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="../Js/form.js"></script>
+
+</html>
